@@ -114,7 +114,7 @@ class WebDetect:
 
     async def log(self, data):
         if(self.logging):
-            print(data)
+            print(json.dumps(data))
 
     def validateUrl(self, url):
         url = str(url)

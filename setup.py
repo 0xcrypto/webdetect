@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name = "webdetect",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Vikrant Singh Chauhan",
     author_email = "vi@hackberry.xyz",
     description = ("Detects technologies of a web page using Wappalyzer in a headless browser."),
