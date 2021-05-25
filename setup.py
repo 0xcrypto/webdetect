@@ -2,8 +2,8 @@ import os
 from setuptools import setup
 
 try:
-    from pypandoc import convert
-    read_md = lambda f: convert(f, 'rst', 'md')
+    from pypandoc import convert_file
+    read_md = lambda f: convert_file(f, 'rst', 'md')
 except ImportError:
     print("warning: pypandoc module not found, could not convert Markdown to RST")
     read_md = lambda f: open(f, 'r').read()
@@ -20,7 +20,7 @@ setup(
     long_description=read_md('README.md'),
     py_modules=['webdetect'],
     classifiers=[
-        "Development Status :: 1 - Pre-Alpha",
+        "Development Status :: 2 - Pre-Alpha",
         "Topic :: Security",
         "License :: Public Domain",
     ],
