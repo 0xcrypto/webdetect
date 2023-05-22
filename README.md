@@ -1,7 +1,5 @@
 [License: MIT](LICENSE.md) | [Author: 0xcrypto](https://twitter.com/0xcrypto)
 
-# webdetect
-
 Detects technologies of a web page using Wappalyzer in a headless browser. 
 
 # Installation
